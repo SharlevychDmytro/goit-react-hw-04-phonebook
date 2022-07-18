@@ -2,7 +2,6 @@ import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
 import { FormContact, Input, Label } from 'components/Form/Form.styled';
 import { Formik } from 'formik';
-// import * as yup from 'yup';
 
 const initialValues = {
   name: '',
